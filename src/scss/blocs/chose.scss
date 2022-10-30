@@ -1,0 +1,44 @@
+.chose{
+    min-height: 896px;
+    .upper{
+        padding-top: 57px;
+        min-height: 499px;
+        background-color: #070716;
+        
+    }
+    .lower{
+
+        position: relative;
+        min-height: 397px;
+        background: url("@img/Rectangle_20_copy_5.jpg") center center/cover no-repeat ;
+    }
+        .slogan{
+            position: absolute;
+            color: #222222;
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: center;
+            margin: 0 auto;
+            bottom: 137px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .car{
+            position: absolute;
+            top: -267px;
+            left: 50%;
+            transform: translateX(-50%);
+
+
+        }
+}
+.wight{
+    background-color: #ffffff;
+    color: #070716;
+    margin-top: 0;
+}
+.wight_txt{
+    color: #ffffff;
+}
+

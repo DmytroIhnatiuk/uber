@@ -1,0 +1,12 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/bootstrap-grid.min";
+@import "fonts";
+@import "blocs/header";
+@import "blocs/uber_partners";
+@import "blocs/benefits";
+@import "blocs/mobile_application";
+@import "blocs/chose.scss";
+
+*{
+    font-family: 'Roboto';
+}

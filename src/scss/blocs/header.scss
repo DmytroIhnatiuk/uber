@@ -1,0 +1,81 @@
+header{
+    position: relative;
+}
+nav{
+    height: 50px;
+    background-color: #212121;
+//    position: fixed;//
+//    width: 100%;//
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+    &_link{
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    &_item{
+        border-right:2px dotted black;
+        padding-right: 29px;
+        &:last-child{
+            border-right:none;
+            padding-right: 0;
+
+        }    
+    }
+    }
+.subheader{
+
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 87px;
+    
+    .logo{
+        min-width: 100%;
+        margin-top: 17px;
+    }
+    .logo_text{
+        margin-top: 5px;
+        color: #FFFFFF;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .coll{
+        margin-top: 20px;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 300;
+        text-align: right;
+    }
+    .tel{
+        display: flex;
+        justify-content:end;
+        color: #FFFFFF;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .btn_header{
+        margin: 20px 0 20px;
+        width: 172px;
+        height: 46px;
+        border: none;
+        background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+        box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+        vertical-align: middle;
+    }
+}
+
+
