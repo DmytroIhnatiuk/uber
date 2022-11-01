@@ -1,0 +1,16 @@
+.all-w{
+    position: relative;
+    min-height: 717px;
+    background: url("@img/2-layers.jpg") center center/cover no-repeat;
+    padding-top: 49px;
+    .linck__all-w{
+        position: absolute;
+        bottom: 49px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #1fbad6;
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,72 @@
+.terms{
+    padding: 68px 0 94px;
+    .terms__lists{
+        padding-top: 33px;
+        .list{
+            margin-bottom: 62px;
+            max-width: 478px;
+            .list_header{
+                color: #1ca8c3;
+                font-size: 22px;
+                font-weight: 400;
+               
+            }
+            
+            ul{
+                
+                list-style-type: none;
+                color: #222222;
+                font-size: 17px;
+                font-weight: 300;
+                line-height: 24px;
+                padding-left: 50px;
+                
+
+                li{
+                    margin: 10px 0 0 0;
+                    position: relative;
+                    &::before{
+                        content:'';
+                        position: absolute;
+                        left: -32px;
+                        top: 3px;
+                        display: block;
+                        height: 20px;
+                        width: 21px;
+                        background: url("@img/icons/check_blue 1.png")center center/cover no-repeat;
+                        
+                    }
+                }
+            }
+            
+            .list_descr{
+                color: #1ca8c3;
+                font-weight: 300;
+                font-size: 17px;
+            }
+            }
+        .nmb{
+            margin-bottom: 0;
+        }
+    .red{
+        .list_header{
+            color:#ff5656;
+        }
+        ul{
+            li{
+                &::before{
+                    background: url("@img/icons/check_red 6.png")center center/cover no-repeat;
+                        
+                }
+
+            }
+        }
+
+    }
+
+    
+    
+    
+
+    }
+}
