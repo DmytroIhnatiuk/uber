@@ -1,52 +1,105 @@
-footer{
-    min-height: 156px;
+footer{  
     position: relative;
-    padding-top: 14px;
-    .line_blue{
+    width: 100%;
+    padding: 14px 0 39px;
+    &::before{
+        content: "";
+        position: absolute;
+        transform: translate(-50%);
+        left: 50%;
         width: 299px;
         height: 4px;
         background-color: #1fbad6;
-        margin: 0 auto;
-    }
-    .footer__nav_major{
-        margin-top: 32px;
-        display: flex;
-        justify-content: space-around;
-        .nav_linc{
-            color: #070716;
-            font-size: 15px;
-            font-weight: 300;
-            text-transform: uppercase;
         }
-    }
-    .footer__nav_less{
-        margin-top: 16px;
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: 0px;    
+        height: 8px;
+        width: 100%;
+        background-color: #070716;
+        }
+        .social{ 
+            .social__icon{
+                position: absolute;
+                left: 28px;
+                bottom:50%;
+                width: 32px;
+                height: 32px;
+                background-color: #070716;
+                border-radius: 100%;
+                &:hover{
+                    box-shadow: 0 0 4px 4px grey;               
+                }
+            }
+            .si_2{
+                left: 72px;
+            }
+            .si_3{
+                left: 112px;
+            }
+            .si_4{
+                left: 152px;
+            }           
+        } 
+        .footer__nav_major{
+            margin-top: 32px;
+            display: flex;
+            justify-content: space-around;
+            .nav_linc{
+                color: #070716;
+                font-size: 15px;
+                font-weight: 300;
+                text-transform: uppercase;
+            }
+        }
+        .footer__nav_less{
+            margin-top: 16px;
+            display: flex;
+            justify-content: space-around;
+            .nav_linc_less{
+                color: #999999;
+                font-size: 11px;
+                font-weight: 300;
+                text-transform: uppercase;    
+            }
+        }
+        .language{
+        margin-top: 19px;
         display: flex;
-        justify-content: space-around;
-        .nav_linc_less{
-            color: #999999;
+        justify-content: center;
+        .ru{
+            color: #1fbad6;
             font-size: 11px;
-            font-weight: 300;
-            text-transform: uppercase;
-
+            font-weight: 400;
+            text-transform: uppercase;    
+            }    
+        }
+    .store{
+        .store__icon{
+            border-radius: 5px;
+            height: 26px;
+            width: 95px;
+            position: absolute;
+            right: 225px;
+            bottom:50%;
+            cursor: pointer;
+            &:hover{
+                box-shadow: 0 0 4px 4px grey;               
+            }
+        
+        }
+        .icon_1{
+            background: url("@img/icons/store/app.png") center center/cover no-repeat;
+        }
+        .icon_2{
+            background: url("@img/icons/store/goog.png") center center/cover no-repeat;
+            right: 124px;
+        }
+        .icon_3{
+            background: url("@img/icons/store/win.png") center center/cover no-repeat;
+            right: 23px;
         }
     }
-    .language{
-    margin-top: 19px;
-    display: flex;
-    justify-content: center;
-    .ru{
-        color: #1fbad6;
-        font-size: 11px;
-        font-weight: 400;
-        text-transform: uppercase;
-
-    }
-}
-.line_black{
-
-    height: 8px;
-    background-color: #070716;
-}
-
+ 
 }
